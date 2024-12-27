@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatGPT Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Header -->
+    <div class="chat-header">
+      <h1>ChatGPT</h1>
+      <button id="login-button">Login</button>
+    </div>
+
+    <!-- Chat Sidebar -->
+    <div class="chat-sidebar">
+      <h3>Chat History</h3>
+      <ul id="chat-history">
+        <!-- Placeholder for chat history -->
+      </ul>
+    </div>
+
+    <!-- Chat Content -->
+    <div class="chat-content">
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="chat-input">
+        <input type="file" id="file-input" style="display: none;">
+        <button id="file-button">📁</button>
+        <input type="text" id="message-input" placeholder="Type your message...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
